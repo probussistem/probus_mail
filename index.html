@@ -2,15 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+  
     <style>
+        .font1{
+            font-family: 'DM Serif Display', serif;
+            font-family: 'Libre Baskerville', serif;
+        }
+        .font2{
+            font-family: 'Nanum Pen Script', cursive;
+        }
         .max500{
-           width: 400px;
+           width: 500px;
            margin: auto;
            
         }
@@ -102,7 +112,7 @@
            width: 120px;
        }
        html *{
-        font-family: 'Montserrat', sans-serif;
+/*        font-family: 'Montserrat', sans-serif;*/
        }
        .bgUrl1{
            background-image: url('https://i.postimg.cc/CKnL2y3s/gedung.png');
@@ -119,7 +129,7 @@
           
        }
        .bgUrl4{
-           background-image: url('https://i.postimg.cc/JnhH0Yvy/gunung3.png');
+           background-image: url('https://i.postimg.cc/XvLsw18K/footer.png');
            background-size: cover;
        }
        .tinggi200{
@@ -139,20 +149,45 @@
         "Manta Dive",
         
       */
+        
+        .tinggiA{
+            height: 230px;
+        }
+        
+        .glow {
+         
+          color: #fff;
+          text-align: center;
+          -webkit-animation: glow 1s ease-in-out infinite alternate;
+          -moz-animation: glow 1s ease-in-out infinite alternate;
+          animation: glow 1s ease-in-out infinite alternate;
+        }
+
+        @-webkit-keyframes glow {
+          from {
+            text-shadow: 0 0 4px #1758C0, 0 0 4px #1758C0, 0 0 6px #1758C0, 0 0 18px #1758C0, 0 0 10px #1758C0, 0 0 14px #1758C0, 0 0 16px #1758C0;
+          }
+
+          to {
+            text-shadow: 0 0 6px #3D5A8B, 0 0 6px #3D5A8B, 0 0 11px #3D5A8B, 0 0 14px #3D5A8B, 0 0 16px #3D5A8B, 0 0 19px #3D5A8B, 0 0 22px #3D5A8B;
+          }
+        }
     </style>
 </head>
-<body class="bg1 w3-container gambar100">
-    <div class="max500 w3-container">
+<body class="bg1 w3-container gambar100 w3-mobile">
+    <div class="max500 w3-container w3-mobile">
         <table class="">
             <tr>
                 <td>
                     <div class="w3-display-container w3-white ">
                         <div class="">
                             <img class="w3-image" src="https://i.postimg.cc/wMPXgQGK/probus-mail.png ">
-                            <div class="w3-padding ">
-                                <blockquote class="w3-round  w3-white w3-padding">  
-                                    <span class="w3-xxlarge w3-text-grey">❝</span>
-                                    <span class=""> Pelan tapi pasti Pandemi Covid-19 segera berakhir, dan yakinlah juga industri pariwisata akan berkembang pesat. Mari percayakan bisnis Anda bersama sistem kami</span>
+                            <div class="w3-padding w3-center ">
+                                <blockquote class="w3-round w3-panel w3-card w3-leftbar w3-white w3-border w3-large w3-border-grey w3-text-grey font1"> 
+                                    "  
+                                        Pelan Tapi Pasti Pandemi Covid 19 Segera Berakhir 
+                                        Dan Yakinlah Industri Pariwisata Akan Berkembang Pesat Kembali Mari Percayakan Bisnis Anda Bersama PROBUS SYSTEM
+                                    "
                                 </blockquote>
                             </div>
                         </div>
@@ -165,7 +200,7 @@
             <tr>
                 <td class="bg2">
                     <div class="paddingKK16 w3-margin-bottom w3-margin-top w3-text-white">
-                        Probus System adalah Konsultan IT Keuangan yang berbasis 
+                        Probus System adalah Konsultan IT keuangan Industri hospitality yang berbasis 
                         di Denpasar, Bali.
                         <span class="w3-text-black"><a href="http://www.probussystem.com/">more ...</a></span>
                     </div>
@@ -193,7 +228,7 @@
                                 <a href="http://www.probussystem.com/products/probus-pms/">Click More</a>
                             </div>
                         </div>
-                        <div class="w3-container bagi3 w3-tag w3-light-grey w3-border w3-border-white w3-padding w3-round">
+                        <div class="w3-container bagi3 w3-tag w3-light-grey w3-border w3-border-white w3-padding w3-round w3-margin-bottom">
                             <img class="w3-margin-bottom gambar100" src="https://i.postimg.cc/cCCQ9Xhq/presto.png">
                             <strong>PRESTO</strong>
                             <div class="w3-small w3-text-grey">
@@ -203,11 +238,11 @@
                                 <a href="#">Click More</a>
                             </div>
                         </div>
-                        <div class="w3-container bagi3 w3-tag w3-light-grey w3-border w3-border-white w3-padding w3-round">
+                        <div class="w3-container bagi3 w3-tag w3-light-grey w3-border w3-border-white w3-padding w3-round w3-margin-bottom">
                             <img class="w3-margin-bottom gambar100" src="https://i.postimg.cc/SsyL8yzx/ppos.png">
                             <strong>PPOS</strong>
                             <div class="w3-small w3-text-grey">
-                                Software manajemen sistem hotel dan villa dengan laporan online dan sistem akunting terbaik
+                                Software manajemen sistem retail & grosir dengan laporan  dan sistem akunting terbaik
                             </div>
                             <div class="w3-orange w3-container padding4 w3-round w3-center w3-hover-white w3-margin-top">
                                 <a href="http://probuspms.com/fitur/fitur-ppos/">Click More</a>
@@ -221,8 +256,9 @@
                 <td class="bg3 w3-padding bgUrl2" >
                     <div class="paddingKK16 w3-margin-top">
                         <div class="w3-center">
-                            <strong class="w3-text-black w3-margin-bottom w3-large">NO PROBLEM ONLY SOLUTION</strong>
+                            <strong class="font2 w3-margin-bottom w3-large w3-text-white w3-xxlarge">NO PROBLEM ONLY SOLUTION</strong>
                         </div>
+<!--
                         <div class="w3-small w3-margin-top w3-margin-bottom">
                             Dengan tim Industri IT, Accounting and Hospitality 
                             yang berpengalaman, Probus membangun sistem yang handal 
@@ -236,34 +272,38 @@
                             kebutuhan mereka.
                             <span class="w3-text-orange"><a href="http://www.probussystem.com/">more ...</a></span>
                         </div>
+-->
                     </div>
                 </td>
             </tr>
             <tr>
-                <td class="bg4 bgUrl3">
-                    <div class="w3-container w3-center w3-margin-top ">
+                <td class="">
+                    <div class="w3-container w3-center  bgUrl3">
                         <strong class="w3-text-black w3-large">TIM KAMI</strong>
-                        <div class="w3-container padding4">
-                            <a href="http://www.probussystem.com/our-team/">
-                                <div class="w3-margin w3-round w3-tag warnaTeam w3-card paddingAB8 w3-hover-white">
+                        <div class="w3-container w3-row-padding ">
+                            
+                            <a href="http://www.probussystem.com/our-team/" class="w3-col s4">
+                                <div class="w3-margin-bottom w3-round warnaTeam w3-card  w3-hover-white  w3-tag tinggiA w3-padding">
                                     <img class="w3-circle sizeTeam w3-half" src="https://i.postimg.cc/d3yvwKtJ/programmer.png">
                                     <strong class="w3-text-black w3-container">Programmer</strong>
                                     <div class="w3-small lebarMax200 w3-container">
-                                        java foxpro php vue nodejs javascript
+                                        java foxpro flutter php vue nodejs javascript 
                                     </div>
                                 </div>
                             </a>
-                            <a href="http://www.probussystem.com/our-team/">
-                                <div class="w3-margin w3-round w3-tag paddingAB2 w3-card warnaTeam paddingAB8 w3-hover-white">
+                            
+                            <a href="http://www.probussystem.com/our-team/" class="w3-col s4 ">
+                                <div class="w3-round w3-margin-bottom   w3-card warnaTeam w3-hover-white w3-tag tinggiA w3-padding">
                                     <img class="w3-circle sizeTeam w3-half" src="https://i.postimg.cc/63SwkQKH/back-office.png">
                                     <strong class="w3-text-black w3-container">Front Office</strong>
                                     <div class="w3-small lebarMax200">
-                                        implementasi office front customer client 
+                                        implementator front office back office customer client 
                                     </div>
                                 </div>
                             </a>
-                            <a href="http://www.probussystem.com/our-team/">
-                                <div class="w3-margin w3-round w3-tag w3-card warnaTeam paddingAB8 w3-hover-white">
+                            
+                            <a href="http://www.probussystem.com/our-team/" class="w3-col s4">
+                                <div class="w3-margin-bottom  w3-round w3-card warnaTeam w3-hover-white tinggiA w3-tag w3-padding">
                                     <img class="w3-circle sizeTeam w3-half" src="https://i.postimg.cc/WpFJhFd1/back-office1.png">
                                     <strong class="w3-text-black w3-container">Back Office</strong>
                                     <div class="w3-small lebarMax200">
@@ -271,8 +311,9 @@
                                     </div>
                                 </div>
                             </a>
-                            <a href="http://www.probussystem.com/our-team/">
-                                <div class="w3-margin w3-round w3-tag w3-card warnaTeam paddingAB8 w3-hover-white">
+                            
+                            <a href="http://www.probussystem.com/our-team/" class="w3-col s4">
+                                <div class="w3-margin-bottom  w3-round w3-padding  w3-card warnaTeam w3-hover-white tinggiA w3-tag">
                                     <img class="w3-circle sizeTeam w3-half" src="https://i.postimg.cc/L8RqCxNJ/customer-service.png">
                                     <strong class="w3-text-black w3-container">CS</strong>
                                     <div class="w3-small lebarMax200">
@@ -280,15 +321,17 @@
                                     </div>
                                 </div>
                             </a>
-                            <a href="http://www.probussystem.com/our-team/">
-                                <div class="w3-margin w3-round w3-tag w3-card warnaTeam paddingAB8 w3-hover-white">
+                            
+                            <a href="http://www.probussystem.com/our-team/" class="w3-col s4">
+                                <div class="w3-margin-bottom w3-padding w3-round  w3-card warnaTeam w3-tag  w3-hover-white tinggiA">
                                     <img class="w3-circle sizeTeam w3-half" src="https://i.postimg.cc/pyMvd1pz/team-it.png">
                                     <strong class="w3-text-black w3-container">IT</strong>
                                     <div class="w3-small lebarMax200" >
-                                        windows ssh vpn linux osx android
+                                        windows ssh vpn linux osx android microtik network
                                     </div>
                                 </div>
                             </a>
+                            
                         </div>
                     </div>
                 </td>
@@ -314,8 +357,8 @@
                         </div>
                     </div>
                     <div class="papddingAB32">
-                        <strong class="w3-xlarge w3-text-grey">
-                            Growing your business with Probussystem
+                        <strong class="w3-xlarge ">
+                            <strong class="glow">Growing your business with Probussystem</strong>
                         </strong>
                     </div>
                 </td>
@@ -324,19 +367,19 @@
                 <td class="bg5 bgUrl4 w3-text-white papddingAB32">
                     <div class="w3-container w3-padding">
                         <strong class="w3-padding">PROBUS SYSTEM</strong>
-                        <div class="w3-container w3-padding">
+                        <div class="w3-container ">
                             <i class="material-icons">place</i>
                             <span class="w3-small">
                                 Address: Jl. Bedugul Pertokoan Dea Graha No.17 D 80224 Denpasar
                             </span>
                         </div>
-                        <div class="w3-container w3-padding">
+                        <div class="w3-container ">
                             <i class="material-icons">email</i>
                             <span class="w3-small">
                                 Email: marketing@probussystem.com
                             </span>
                         </div>
-                        <div class="w3-container w3-padding">
+                        <div class="w3-container ">
                             <i class="material-icons">phone</i>
                             <span class="w3-small">
                                 Phone:+0818 0558 1015
